@@ -31,37 +31,37 @@ const Todo = {
 const createTodo = ({contents, category, tags = []}) => {}
 
 /**
- * read Todo By Id or if id is null return all Todo's
+ * read Todo By Id OR if id is null, return all Todo's
  * @param {?number} id 
  * @returns {(Todo| Todo[])}
  */
 const readTodo = (id) => {};
 
-// UPDATE
-// ID를 제외한 모든 속성을 수정할 수 있다.
-// 특정 할 일의 특정 태그를 수정할 수 있다.
-
 /**
  * update Todo By ID
- * @param {?number} id
- * 
+ * @param {number} id
+ * @param {Object} Todo
+ * @param {string} Todo.contents
+ * @param {string} Todo.category
+ * @param {string} [Todo.tags]
  */
 const updateTodo = (id, {contents, category, tags}) => {}
 
 
-// ID를 기반으로 특정 할 일을 삭제할 수 있다.
-// 모든 할 일을 제거할 수 있다.
-// 특정 할 일의 특정 태그를 삭제할 수 있다.
-// 특정 할 일의 모든 태그를 제거할 수 있다.
-
 /**
- * remove Todo List
- * @param {number} Todo.id
+ * remove Todo List By Id if id is null, remove all
+ * @param {?number} Todo.id
  */
 const removeTodo = (id) => {}
 
 /**
- * remove All Todo List
+ * remove TodoTag By id and tagIndex, if tagIndex is null, remove all tag
+ * @param {number} id
+ * @param {?number} tagIndex
  */
-const removeAllTodo = () => {}
+const removeTodoTag = (id, tagIndex) => {}
+
+
+
+
 
