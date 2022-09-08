@@ -12,7 +12,7 @@
  * @property {string} contents Todo의 내용
  * @property {boolean} isDone Todo의 완료 여부
  * @property {string} category Todo의 카테고리
- * @property {string} [tags] Todo의 태그
+ * @property {string[]} tags Todo의 태그
  */
 
 /**
@@ -22,28 +22,37 @@ const Todo = {
 };
 
 /**
+ * @type {Todo[]}
+ */
+const Todos = [];
+
+/**
  * create Todo List
  * @param {Object} Todo - Todo 객체
- * @param {string} Todo.contents - Todo의 내용
+ * @param {!string} Todo.contents - Todo의 내용
  * @param {string} Todo.category - Todo 카테고리
- * @param {string} [Todo.tags] - Todo 태그
+ * @param {string[]} Todo.tags - Todo 태그
  */
-const createTodo = ({contents, category, tags = []}) => {}
+const createTodo = ({contents, category, tags = []}) => {
+	// const TodoItem = 
+}
 
 /**
  * read Todo By Id OR if id is null, return all Todo's
  * @param {?number} id 
  * @returns {(Todo| Todo[])}
  */
-const readTodo = (id) => {};
+const readTodo = (id) => {
+	
+};
 
 /**
  * update Todo By ID
- * @param {number} id
+ * @param {!number} id
  * @param {Object} Todo
  * @param {string} Todo.contents
  * @param {string} Todo.category
- * @param {string} [Todo.tags]
+ * @param {string[]} Todo.tags
  */
 const updateTodo = (id, {contents, category, tags}) => {}
 
@@ -56,7 +65,7 @@ const removeTodo = (id) => {}
 
 /**
  * remove TodoTag By id and tagIndex, if tagIndex is null, remove all tag
- * @param {number} id
+ * @param {!number} id
  * @param {?number} tagIndex
  */
 const removeTodoTag = (id, tagIndex) => {}
