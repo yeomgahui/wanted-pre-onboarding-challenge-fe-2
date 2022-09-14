@@ -1,4 +1,20 @@
-## 챌린지 과제 가이드
+Wanted Pre onBoarding Challenge - TypeScript
+==============================================
+
+## 1차 과제 
+ - Todo 앱을 설계하고 JSDoc으로 문서화 한다.  
+ 
+ - [X] 필요한 데이터를 모두 모델링한다.
+ - [X] 사용되는 모든 함수를 `선언부만` 만든다.
+ - [X] 함수 및 클래스의 내부는 구현하지 않습니다.
+ - [X] `JSDoc`을 활용해 문서화한다.
+ - [X] `GitHub Page`를 활용해 `JSDoc` 정적 페이지를 배포한다.
+   [[배포 링크]](https://yeomgahui.github.io/wanted-pre-onboarding-challenge-fe-2/)
+ 
+ <details>
+  <summary> 1차 과제 요구사항</summary>
+  
+  ### 챌린지 과제 가이드
 
 >요구 사항을 구현하지 않고 설계만합니다.
 
@@ -11,9 +27,9 @@
 - README.md를 꼭 작성해 주세요. 본인에 대한 소개나 프로젝트 소개 등 자유롭게 작성해주시면 됩니다.
 - JSDoc 환경 구성에 어색한 경우 [Boilerplate](https://github.com/pocojang/jsdoc-boilerplate)를 이용하셔도 됩니다
 
-## 📝 Requirements
+### 📝 Requirements
 
-### 필수 요구사항
+#### 필수 요구사항
 >아래의 Todo 앱 요구사항을 참고하여
 
 - 필요한 데이터를 모두 모델링한다.
@@ -21,6 +37,23 @@
 - 함수 및 클래스의 내부는 구현하지 않습니다.
 - `JSDoc`을 활용해 문서화한다.
 - `GitHub Page`를 활용해 `JSDoc` 정적 페이지를 배포한다.
+ </details>
+
+## 2차 과제
+ - [X] 설계한 App에 로직 구현한다. With JavaScript 
+
+## 3차 과제
+ - [X] TypeScript로 Migration 한다. 
+
+## 4차 과제
+- 3차 과제를 기반으로 구현된 코드 중 비즈니스 로직과 같은 도메인 영역을 제거한다.
+- TypeScript의 Generic을 활용한다.  
+  
+  
+
+
+
+# 과제 기본 정보
 
 ### Todo
 
